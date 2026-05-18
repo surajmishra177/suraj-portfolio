@@ -1,2 +1,2 @@
 # suraj-portfolio
-Personal portfolio website of Suraaj Mishra
+Personal portfolio website of Suraj Mishra
