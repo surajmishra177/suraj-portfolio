@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suraj Mishra | Resume</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.4;
+      color: #333;
+      background: #f5f5f5;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 8.5in;
+      height: 11in;
+      background: white;
+      margin: 0 auto;
+      padding: 0.5in;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      font-size: 10pt;
+    }
+
+    .header {
+      text-align: center;
+      border-bottom: 2px solid #2c3e50;
+      margin-bottom: 8px;
+      padding-bottom: 6px;
+    }
+
+    .header h1 {
+      font-size: 18pt;
+      margin-bottom: 2px;
+      color: #2c3e50;
+    }
+
+    .header p {
+      font-size: 9pt;
+      margin: 1px 0;
+      color: #555;
+    }
+
+    .section {
+      margin-bottom: 8px;
+    }
+
+    .section-title {
+      font-size: 11pt;
+      font-weight: bold;
+      color: #2c3e50;
+      border-bottom: 1px solid #bdc3c7;
+      margin-bottom: 4px;
+      padding-bottom: 2px;
+      text-transform: uppercase;
+    }
+
+    .item {
+      margin-bottom: 6px;
+    }
+
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+      font-size: 10pt;
+    }
+
+    .item-subheader {
+      font-style: italic;
+      color: #555;
+      font-size: 9.5pt;
+      margin-bottom: 2px;
+    }
+
+    .item-description {
+      font-size: 9.5pt;
+      margin-left: 10px;
+      color: #333;
+    }
+
+    ul {
+      margin-left: 20px;
+      font-size: 9.5pt;
+    }
+
+    ul li {
+      margin-bottom: 2px;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      font-size: 9.5pt;
+    }
+
+    .skills-column {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+
+    .skills-column li {
+      list-style: none;
+      margin-bottom: 0;
+    }
+
+    .contact-info {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      font-size: 9pt;
+      flex-wrap: wrap;
+    }
+
+    .contact-info p {
+      margin: 0;
+    }
+
+    .print-button {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 30px;
+      background: #2c3e50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .print-button:hover {
+      background: #34495e;
+    }
+
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+      }
+      .container {
+        max-width: 100%;
+        height: auto;
+        box-shadow: none;
+        padding: 0.5in;
+        margin: 0;
+      }
+      .print-button {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <button class="print-button" onclick="window.print()">Print as PDF</button>
+
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <h1>SURAJ MISHRA</h1>
+      <p>MBA Candidate '26 | HRMS & SaaS Operations Specialist</p>
+      <div class="contact-info">
+        <p>📞 +91 9304209881</p>
+        <p>📧 mishrasurajbth@gmail.com</p>
+        <p>🔗 <a href="https://www.linkedin.com/in/surajmishra-ops" target="_blank">LinkedIn Profile</a></p>
+      </div>
+    </div>
+
+    <!-- Professional Summary -->
+    <div class="section">
+      <div class="section-title">Professional Summary</div>
+      <p>Results-driven MBA candidate with hands-on expertise in HRMS operations, payroll management, client onboarding, and UAT testing in the SaaS domain. Proven ability to configure HRMS solutions, process payroll, and ensure smooth client implementations. Strong leadership and coordination skills demonstrated through role as Class Representative.</p>
+    </div>
+
+    <!-- Education -->
+    <div class="section">
+      <div class="section-title">Education</div>
+      <div class="item">
+        <div class="item-header">
+          <span>Master of Business Administration (MBA)</span>
+          <span>Expected: 2026</span>
+        </div>
+        <div class="item-subheader">Lakshmi Narayan College of Technology, Bhopal</div>
+        <div class="item-description">Specialization: Marketing & Banking & Finance</div>
+      </div>
+    </div>
+
+    <!-- Professional Experience -->
+    <div class="section">
+      <div class="section-title">Professional Experience</div>
+      <div class="item">
+        <div class="item-header">
+          <span>SaaS Operations Specialist</span>
+          <span>Current</span>
+        </div>
+        <div class="item-description">
+          <ul>
+            <li>Configure and deploy HRMS solutions for enterprise clients</li>
+            <li>Process and validate payroll data; ensure compliance and accuracy</li>
+            <li>Manage client onboarding and implementation lifecycle</li>
+            <li>Conduct UAT & QA testing to identify and resolve system issues</li>
+            <li>Analyze business processes and optimize workflows</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Core Competencies -->
+    <div class="section">
+      <div class="section-title">Core Competencies</div>
+      <div class="skills-grid">
+        <div class="skills-column">
+          <strong>Technical & Operations:</strong>
+          <ul>
+            <li>HRMS Implementation & Configuration</li>
+            <li>Payroll Processing & Validation</li>
+            <li>Client Onboarding & Implementation</li>
+            <li>UAT & QA Testing</li>
+            <li>SaaS Operations</li>
+          </ul>
+        </div>
+        <div class="skills-column">
+          <strong>Business & Analytics:</strong>
+          <ul>
+            <li>Business Process Analysis</li>
+            <li>Marketing Strategy</li>
+            <li>Financial Analysis</li>
+            <li>Data-Driven Decision-Making</li>
+            <li>Microsoft Excel (Advanced)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Leadership & Recognition -->
+    <div class="section">
+      <div class="section-title">Leadership & Recognition</div>
+      <ul>
+        <li><strong>Class Representative (CR)</strong> – MBA Batch 2026 | Led class initiatives and coordinated with faculty and students</li>
+        <li><strong>HR Club Coordinator</strong> – Enhanced team coordination, communication, and leadership skills through club activities</li>
+      </ul>
+    </div>
+
+    <!-- Key Areas of Interest -->
+    <div class="section">
+      <div class="section-title">Areas of Interest</div>
+      <p>HR Technology | SaaS Operations | Marketing Analytics | Business Analysis | Payroll & Compliance | Client Success Management</p>
+    </div>
+  </div>
+
+</body>
+</html>
