@@ -7,64 +7,114 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="page-wrap">
+    <header class="site-hero">
+      <div class="hero-left">
+        <nav class="top-nav">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
 
-  <header class="hero">
-    <img src="54992.jpg" alt="Suraj Mishra" class="profile-pic">
-    <h1>Suraj Mishra</h1>
-    <p class="title">Operations & Business Analysis</p>
-    <p class="intro">MBA Student specializing in Marketing and Banking & Finance. Experienced in HRMS implementation, payroll operations, client onboarding, and SaaS support.</p>
-    <a href="resume.pdf" class="btn" target="_blank">Download Resume</a>
-  </header>
+        <div class="hero-content">
+          <div class="eyebrow">ADAM/Z.</div>
+          <h1 class="name">Suraj Mishra <span class="arrow">→</span></h1>
+          <p class="subtitle">Operations & Business Analysis — MBA | SaaS Operations</p>
 
-  <section id="about">
-    <h2>About Me</h2>
+          <p class="hero-desc">I design scalable operational processes and support SaaS implementations — HRMS, payroll operations, client onboarding and UAT.</p>
 
-    <p>I'm Suraj Mishra, an MBA candidate specializing in Marketing and Banking & Finance at Lakshmi Narayan College of Technology, Bhopal. Currently, I work in the SaaS domain with hands-on experience in operations, implementation, and client success. I'm passionate about bridging the gap between operational excellence and business strategy.</p>
+          <div class="stats">
+            <div>
+              <div class="stat-number">7+</div>
+              <div class="stat-label">Years experience</div>
+            </div>
+            <div>
+              <div class="stat-number">199+</div>
+              <div class="stat-label">Satisfied clients</div>
+            </div>
+          </div>
 
-    <h3>Professional Experience</h3>
-    <ul>
-      <li>HRMS and SaaS Operations Management</li>
-      <li>Payroll Processing and Validation</li>
-      <li>Client Onboarding and Implementation</li>
-      <li>UAT & QA Testing</li>
-      <li>Business Process Analysis</li>
-    </ul>
+          <a class="btn" href="resume.pdf" target="_blank">Download Resume</a>
+        </div>
 
-    <h3>Academic Strengths</h3>
-    <ul>
-      <li>Marketing Strategy and Planning</li>
-      <li>Market Research and Consumer Behavior</li>
-      <li>Financial Analysis and Modeling</li>
-      <li>Data-Driven Decision-Making</li>
-    </ul>
+        <div class="decor-circles">
+          <span class="circle circle-1">Developer</span>
+          <span class="circle circle-2">Experience designer</span>
+        </div>
+      </div>
 
-    <p>Beyond academics, I serve as the Class Representative (CR) for my MBA batch and as a Coordinator in the HR Club. These roles have enhanced my leadership, communication, and team coordination skills.</p>
+      <div class="hero-right">
+        <div class="right-cards">
+          <div class="card">
+            <img src="54992.jpg" alt="Suraj" class="card-img">
+          </div>
 
-    <p>I'm particularly interested in opportunities where I can combine my operational experience and business education in HR Tech, Marketing Analytics, Business Analysis, and SaaS Operations.</p>
-  </section>
+          <div class="card small">
+            <h4>Let's Connect.</h4>
+            <form class="contact-form" action="#" onsubmit="return false;">
+              <label>
+                <input type="text" placeholder="Your name" />
+              </label>
+              <label>
+                <input type="email" placeholder="Your email" />
+              </label>
+              <label>
+                <textarea placeholder="Tell about the project"></textarea>
+              </label>
+              <button class="btn secondary">Send →</button>
+            </form>
+          </div>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>HRMS Implementation</li>
-      <li>Payroll Management</li>
-      <li>Client Onboarding & Implementation</li>
-      <li>UAT & QA Testing</li>
-      <li>SaaS Operations</li>
-      <li>Business Process Analysis</li>
-      <li>Microsoft Excel & Data Analysis</li>
-      <li>Leadership & Team Coordination</li>
-    </ul>
-  </section>
+          <div class="card stack">
+            <div class="mini-card">UI / UX Designer</div>
+            <div class="mini-card highlight">Front End Developer</div>
+            <div class="mini-card">Social Media Designer</div>
+          </div>
+        </div>
+      </div>
+    </header>
 
-  <section id="contact">
-    <h2>Get In Touch</h2>
-    <div class="contact-content">
-      <p><strong>Phone:</strong> <a href="tel:+919304209881">+91 9304209881</a></p>
-      <p><strong>Email:</strong> <a href="mailto:mishrasurajbth@gmail.com">mishrasurajbth@gmail.com</a></p>
-      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/surajmishra-ops" target="_blank">View Profile</a></p>
-    </div>
-  </section>
+    <main>
+      <section id="about" class="panel dark-panel">
+        <h2>About Me</h2>
+        <p>I’m Suraj Mishra, an MBA candidate specializing in Marketing and Banking & Finance. I work in the SaaS domain with hands-on experience in HRMS implementations, payroll operations, client onboarding, and UAT.</p>
 
+        <h3>Professional Experience</h3>
+        <ul>
+          <li>HRMS and SaaS Operations Management</li>
+          <li>Payroll Processing and Validation</li>
+          <li>Client Onboarding and Implementation</li>
+          <li>UAT & QA Testing</li>
+          <li>Business Process Analysis</li>
+        </ul>
+      </section>
+
+      <section id="skills" class="panel">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill">HRMS Implementation</div>
+          <div class="skill">Payroll Management</div>
+          <div class="skill">Client Onboarding</div>
+          <div class="skill">UAT & QA Testing</div>
+          <div class="skill">SaaS Operations</div>
+          <div class="skill">Business Analysis</div>
+        </div>
+      </section>
+
+      <section id="contact" class="panel dark-panel">
+        <h2>Get In Touch</h2>
+        <div class="contact-grid">
+          <div>
+            <p><strong>Phone:</strong> <a href="tel:+919304209881">+91 9304209881</a></p>
+            <p><strong>Email:</strong> <a href="mailto:mishrasurajbth@gmail.com">mishrasurajbth@gmail.com</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/surajmishra-ops" target="_blank">View Profile</a></p>
+          </div>
+          <div class="contact-cta">
+            <p>Prefer a quick chat? Send a message using the form in the header.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
